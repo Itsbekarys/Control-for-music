@@ -1,0 +1,28 @@
+# ������� � ������� ������
+.env
+.env.*
+!.env.example
+config.json
+**/config.js
+*.key
+*.pem
+owner_id
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+backups/
+history/
+logs/
+*.log
+*.tar.gz
+*.zip
+
+# ��������� ���������
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
